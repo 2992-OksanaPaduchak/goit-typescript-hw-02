@@ -30,7 +30,7 @@ const App = () => {
     const handleSearch = async () => {
       setLoading(true);
       try {
-        const { results, total_pages }: SearchPhotos = await getPhotos(
+        const { results, total_pages } = await getPhotos<SearchPhotos>(
           query,
           page
         );
