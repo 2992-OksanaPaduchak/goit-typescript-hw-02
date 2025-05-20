@@ -1,0 +1,14 @@
+.text {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #5a5aad;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
